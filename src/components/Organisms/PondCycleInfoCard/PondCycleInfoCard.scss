@@ -1,0 +1,23 @@
+.pond-card{
+  border-radius: 15px!important;
+  box-shadow: none!important;
+  border: 1px solid #B3B3B34D;
+  cursor: pointer;
+}
+
+.MuiListItem-root:first-child .MuiListItemText-primary:after {
+  content: " ";
+  border: none;
+}
+
+.MuiListItem-root:last-child .MuiListItemText-primary:after {
+  width:165px;
+}
+
+.pond-card .MuiListItemText-primary {
+  font-family: Dongle!important;
+  font-size: inherit!important;
+}
+
+
+

@@ -1,0 +1,35 @@
+@import "src/App";
+
+.footer-icon-container{
+  display: flex;
+}
+.footer-icon{
+  color: $primaryText;
+  font-size: 28px!important;
+  text-align: center;
+  margin: 8px auto 0px;
+  opacity: 0.7;
+  width: 24px!important;
+}
+
+.footer-text{
+  text-align: center;
+  color: $primaryText;
+  opacity: 0.7;
+  margin-top: -2px;
+  font-size: 12px;
+}
+@media only screen and (min-width: 1200px) {
+  .footer-menu .MuiGrid-item{
+    padding-top: 0!important;
+    margin-top: 10px;
+    cursor: pointer
+  }
+  .footer-text{
+    font-family: Dongle!important;
+    font-size: 28px!important;
+    font-weight: 400!important;
+    margin-bottom: 0;
+    margin-top: -10px;
+  }
+}

@@ -1,0 +1,33 @@
+@import "src/App";
+.MuiSlider-root {
+  height: 10px!important;
+  padding: 0!important;
+}
+.MuiSlider-rail{
+  color: #B3B3B3;
+}
+.MuiSlider-thumb {
+  display: none!important;
+}
+//.MuiTypography-root {
+//  color: $onSurfaceMain;
+//}
+.moment {
+  display: flex;
+  justify-content: right;
+  height: 35px
+}
+.total-days{
+  color: $onSurfaceLight;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 5px!important;
+}
+li {
+  padding-bottom: 0!important;
+  padding-top: 0!important;
+}
+li .subtitle2{
+  margin-bottom: 0!important;
+  margin-top: 0!important;
+}

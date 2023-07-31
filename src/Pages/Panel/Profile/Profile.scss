@@ -1,0 +1,41 @@
+.profile-container .MuiDivider-root {
+  border: 1px solid #B3B3B3 !important;
+  opacity: 0.3;
+  margin: 10px 0;
+}
+.profile-container .bodyText2 {
+  color: #B3B3B3;
+  top: -10px;
+  position : relative;
+}
+
+.profile-container .MuiListItemText-primary {
+  color: #666666;
+  font-family: Dongle!important;
+  font-size: 28px!important;
+}
+.profile-container li , .profile-container li .MuiIconButton-root{
+  padding: 0;
+}
+
+.data-items .MuiListItemText-primary {
+  color: #00A5A5;
+  font-family: "Roboto","Helvetica","Arial",sans-serif!important;
+  font-size: 14px!important;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer
+}
+.data-items-desktop .MuiListItemText-primary{
+  color: #00A5A5;
+  font-family: Dongle!important;
+  font-size: 28px!important;
+  font-weight: 400!important;
+  cursor: pointer
+}
+.profile-tab {
+  margin-bottom: 40px;
+}
+.profile-tab-panel {
+  padding-left: 20px;
+}

@@ -1,0 +1,23 @@
+.pond-summary-container{
+  margin-top: 8px!important;
+  @media only screen and (min-width: 1200px) {
+    .MuiGrid-grid-lg-4 {
+      max-width: 20%;
+      flex-basis: 20%
+    }
+  }
+}
+
+
+.add-new-pond-btn-container{
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+}
+
+.add-new-pond-btn{
+  width: 100%;
+}

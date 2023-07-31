@@ -1,0 +1,29 @@
+@import "src/App";
+
+.sample-card{
+  border-radius: 15px!important;
+  box-shadow: none!important;
+  cursor: pointer;
+  background-color: #effbfb!important;
+  height: 46px;
+  padding: 0 16px;
+}
+.sample-card-disable {
+  border-radius: 15px!important;
+  box-shadow: none!important;
+  cursor: pointer;
+  background-color: #f8f8f8!important;
+  height: 46px;
+  padding: 0 10px;
+   p {
+    color: #B3B3B3;
+     line-height: .75!important;
+  }
+}
+
+.sample-card .MuiCardContent-root{
+  padding: 10px;
+}
+.sample-card .MuiCardContent-root:last-child{
+  padding-bottom: 0;
+}

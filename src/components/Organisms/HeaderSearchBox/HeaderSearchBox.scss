@@ -1,0 +1,43 @@
+@import "src/App";
+
+.header-search-box{
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.search-back-icon{
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-top: 16px;
+  color: $primaryDark;
+}
+
+.search-close-icon{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.close-search-color{
+  color: $primaryDark;
+}
+
+.search-input{
+  width: calc( 100% - 90px ) !important;
+  border: 0px!important;
+  box-shadow: none!important;
+  margin-top: 14px!important;
+  &:focus{
+    border: 0px!important;
+    box-shadow: none!important;
+  }
+}
+.search-input-alert {
+  margin-top: 0px!important;
+}

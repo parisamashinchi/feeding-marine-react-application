@@ -1,0 +1,19 @@
+.qr-frame{
+  position: absolute;
+  z-index: 1;
+  top: 434px;
+  left: 6%;
+  width: 88%;
+}
+
+
+.qr-camera section{
+  padding-top: 75% !important;
+}
+
+.qr-container{
+  background-image: url("../../../../assets/images/qr-frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 15px;
+}

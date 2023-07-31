@@ -1,0 +1,15 @@
+@import "src/App";
+
+.pond-summary-info-card{
+  border: none!important;
+  box-shadow: none!important;
+  background-color: rgba(88, 213, 214, 0.1) !important;
+  border-radius: 15px!important;
+  height: 80px;
+  @media only screen and (min-width: 1200px) {
+    height: 110px;
+  }
+}
+.pond-summary-info-card .MuiCardContent-root{
+  padding: 17px;
+}

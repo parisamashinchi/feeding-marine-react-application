@@ -1,0 +1,77 @@
+.alert {
+  margin-top: 10px;
+}
+.alert .MuiChip-filled{
+  background-color: #00A5A5;
+  padding: 4px 7px;
+  color: white;
+  margin: 0 8px 8px 0;
+  font-size: 12px;
+}
+.alert .MuiChip-outlined{
+  margin: 0 8px 8px 0;
+  border-color: #B3B3B3;
+  color: #B3B3B3;
+  font-size: 12px;
+}
+.alert .MuiDivider-root{
+  border: 1px solid #B3B3B3 !important;
+  opacity: 0.15;
+  margin: 0 0 10px 0;
+}
+.alert .MuiAlert-message{
+  width: 100%;
+}
+.alert .MuiAlertTitle-root{
+  font-size: 12px;
+  font-weight: 700;
+  color: #212121
+}
+.alert .MuiSvgIcon-root {
+  font-size: .8rem;
+  top: 2px;
+  margin: 0 5px;
+  position: relative;
+}
+.alert-title {
+  margin-bottom: 0px;
+  color: #666666;
+  font-weight: 600!important;
+  font-size: 12px!important;
+}
+.alert-status {
+  margin-top: 2px;
+  color: #666666;
+  font-weight: 400!important;
+  font-size: 12px!important;
+}
+.alert-status span {
+  color: #FFAC32;
+  font-weight: 600;
+}
+.search-icon {
+  font-size: 1.25rem !important;
+}
+.alert .filter-lg {
+  position: relative;
+  top: -130px;
+  width: 430px;
+  float: right;
+  z-index: 999;
+  border: 1px solid rgba(179, 179, 179, 0.15);
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+  .alert-filter-menu .MuiPopover-paper {
+    top: 80px!important;
+    left:-20px!important;
+    position: relative;
+    float: right
+ }
+.alert-filter-menu .MuiMenuItem-root {
+  color: #045C77;
+  font-weight: 600
+}
+.alert .MuiAlert-root {
+  margin-bottom: 10px;
+}

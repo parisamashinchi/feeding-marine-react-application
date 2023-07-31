@@ -1,0 +1,17 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - buildExitCode=1
+      - export NODE_OPTIONS=--max_old_space_size=8192
+      - echo Install Dependencies
+      - npm i
+  build:
+    commands:
+      - echo Building Project
+      - (npm run build)
+      - buildExitCode=$?
+artifacts:
+  files:
+    - '**/*'
+  base-directory: build

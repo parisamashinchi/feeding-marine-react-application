@@ -1,0 +1,31 @@
+@import "src/App";
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: $primaryText;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: $secondaryDark;
+  height: 60px;
+}
+.footer-lg {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: $secondaryDark;
+  height: 100vh;
+  width: 117px;
+  border-radius: 15px;
+  margin: 4px 8px;
+  padding-top: 100px;
+}

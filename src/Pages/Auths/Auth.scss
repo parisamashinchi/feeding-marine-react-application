@@ -1,0 +1,24 @@
+@import "src/App";
+
+
+
+.auth-link {
+  margin-top: -8px !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+}
+
+.tick-header {
+  max-height: 20vh !important;
+  margin: 0 auto !important;
+  padding: 6vh 8vh !important;
+}
+
+.auth-change-route {
+  display: flex;
+  margin-bottom: 6px;
+  width: 100%;
+  left: 0;
+}
+
+

@@ -1,0 +1,17 @@
+@import "src/App";
+
+
+.header-back-icon{
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-top: 5px;
+  width: 15px!important;
+  color: $primaryDark;
+}
+.header-back-icon-desktop {
+    width: 24px !important;
+  margin-left: 0;
+  color: $primaryMain;
+  cursor: pointer
+}
