@@ -1,3 +1,7 @@
+feeding marine is a Track & Monitor Fish Behavior.
+In the app, you can add ponds, choose the type of fish and start breeding fore. Farm performance metrics, such as feed conversion rate and growth rate, are reported on a daily basis. You can also report sampling and harvesting data to help analyze feed conversion rate and average daily gain
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
